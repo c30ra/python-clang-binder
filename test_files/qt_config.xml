@@ -1,0 +1,208 @@
+<!--
+@Author: rebellion
+@Date:   2017-06-26T10:47:25+02:00
+@Last modified by:   rebellion
+@Last modified time: 2017-07-05T16:03:56+02:00
+@License: GPLv3
+-->
+<configuration>
+  <includes>
+    <file name="C:/Program Files/LLVM/lib/clang/4.0.0/include"/>
+    <file name="C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.10.25017/include"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/ucrt"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/shared"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/um"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/win"/>
+    <file name="D:/Development/Qt/5.9/msvc2017_64/include"/>
+    <file name="D:/Development/Qt/5.9/msvc2017_64/include/QtCore"/>
+    <file name="D:/Development/Qt/5.9/msvc2017_64/mkspecs/win32-msvc"/>
+  </includes>
+  <modules>
+    <module name="Qt">
+      <module name="Core">
+        <files>
+          <file name="QtCore/qabstractanimation.h"/>
+          <file name="QtCore/qabstracteventdispatcher.h"/>
+          <file name="QtCore/qabstractitemmodel.h"/>
+          <file name="QtCore/qabstractnativeeventfilter.h"/>
+          <file name="QtCore/qabstractproxymodel.h"/>
+          <file name="QtCore/qabstractstate.h"/>
+          <file name="QtCore/qabstracttransition.h"/>
+          <file name="QtCore/qalgorithms.h"/>
+          <file name="QtCore/qanimationgroup.h"/>
+          <file name="QtCore/qarraydata.h"/>
+          <file name="QtCore/qarraydataops.h"/>
+          <file name="QtCore/qarraydatapointer.h"/>
+          <file name="QtCore/qatomic.h"/>
+          <file name="QtCore/qbasictimer.h"/>
+          <file name="QtCore/qbitarray.h"/>
+          <file name="QtCore/qbuffer.h"/>
+          <file name="QtCore/qbytearray.h"/>
+          <file name="QtCore/qbytearraylist.h"/>
+          <file name="QtCore/qbytearraymatcher.h"/>
+          <file name="QtCore/qcache.h"/>
+          <file name="QtCore/qchar.h"/>
+          <file name="QtCore/qcollator.h"/>
+          <file name="QtCore/qcommandlineoption.h"/>
+          <file name="QtCore/qcommandlineparser.h"/>
+          <file name="QtCore/qcontiguouscache.h"/>
+          <file name="QtCore/qcoreapplication.h"/>
+          <file name="QtCore/qcoreevent.h"/>
+          <file name="QtCore/qcryptographichash.h"/>
+          <file name="QtCore/qdatastream.h"/>
+          <file name="QtCore/qdatetime.h"/>
+          <file name="QtCore/qdeadlinetimer.h"/>
+          <file name="QtCore/qdebug.h"/>
+          <file name="QtCore/qdir.h"/>
+          <file name="QtCore/qdiriterator.h"/>
+          <file name="QtCore/qeasingcurve.h"/>
+          <file name="QtCore/qelapsedtimer.h"/>
+          <file name="QtCore/qendian.h"/>
+          <file name="QtCore/qeventloop.h"/>
+          <file name="QtCore/qeventtransition.h"/>
+          <file name="QtCore/qexception.h"/>
+          <file name="QtCore/qfactoryinterface.h"/>
+          <file name="QtCore/qfile.h"/>
+          <file name="QtCore/qfiledevice.h"/>
+          <file name="QtCore/qfileinfo.h"/>
+          <file name="QtCore/qfileselector.h"/>
+          <file name="QtCore/qfilesystemwatcher.h"/>
+          <file name="QtCore/qfinalstate.h"/>
+          <file name="QtCore/qflags.h"/>
+          <file name="QtCore/qfloat16.h"/>
+          <file name="QtCore/qfunctions_nacl.h"/>
+          <file name="QtCore/qfunctions_vxworks.h"/>
+          <file name="QtCore/qfunctions_winrt.h"/>
+          <file name="QtCore/qfuture.h"/>
+          <file name="QtCore/qfutureinterface.h"/>
+          <file name="QtCore/qfuturesynchronizer.h"/>
+          <file name="QtCore/qfuturewatcher.h"/>
+          <file name="QtCore/qgenericatomic.h"/>
+          <file name="QtCore/qglobal.h"/>
+          <file name="QtCore/qglobalstatic.h"/>
+          <file name="QtCore/qhash.h"/>
+          <file name="QtCore/qhashfunctions.h"/>
+          <file name="QtCore/qhistorystate.h"/>
+          <file name="QtCore/qidentityproxymodel.h"/>
+          <file name="QtCore/qiodevice.h"/>
+          <file name="QtCore/qisenum.h"/>
+          <file name="QtCore/qitemselectionmodel.h"/>
+          <file name="QtCore/qiterator.h"/>
+          <file name="QtCore/qjsonarray.h"/>
+          <file name="QtCore/qjsondocument.h"/>
+          <file name="QtCore/qjsonobject.h"/>
+          <file name="QtCore/qjsonvalue.h"/>
+          <file name="QtCore/qlibrary.h"/>
+          <file name="QtCore/qlibraryinfo.h"/>
+          <file name="QtCore/qline.h"/>
+          <file name="QtCore/qlinkedlist.h"/>
+          <file name="QtCore/qlist.h"/>
+          <file name="QtCore/qlocale.h"/>
+          <file name="QtCore/qlockfile.h"/>
+          <file name="QtCore/qlogging.h"/>
+          <file name="QtCore/qloggingcategory.h"/>
+          <file name="QtCore/qmap.h"/>
+          <file name="QtCore/qmargins.h"/>
+          <file name="QtCore/qmath.h"/>
+          <file name="QtCore/qmessageauthenticationcode.h"/>
+          <file name="QtCore/qmetaobject.h"/>
+          <file name="QtCore/qmetatype.h"/>
+          <file name="QtCore/qmimedata.h"/>
+          <file name="QtCore/qmimedatabase.h"/>
+          <file name="QtCore/qmimetype.h"/>
+          <file name="QtCore/qmutex.h"/>
+          <file name="QtCore/qnamespace.h"/>
+          <file name="QtCore/qnumeric.h"/>
+          <file name="QtCore/qobject.h"/>
+          <file name="QtCore/qobject_impl.h"/>
+          <file name="QtCore/qobjectcleanuphandler.h"/>
+          <file name="QtCore/qobjectdefs.h"/>
+          <file name="QtCore/qobjectdefs_impl.h"/>
+          <file name="QtCore/qoperatingsystemversion.h"/>
+          <file name="QtCore/qpair.h"/>
+          <file name="QtCore/qparallelanimationgroup.h"/>
+          <file name="QtCore/qpauseanimation.h"/>
+          <file name="QtCore/qplugin.h"/>
+          <file name="QtCore/qpluginloader.h"/>
+          <file name="QtCore/qpoint.h"/>
+          <file name="QtCore/qpointer.h"/>
+          <file name="QtCore/qprocess.h"/>
+          <file name="QtCore/qprocessordetection.h"/>
+          <file name="QtCore/qpropertyanimation.h"/>
+          <file name="QtCore/qqueue.h"/>
+          <file name="QtCore/qreadwritelock.h"/>
+          <file name="QtCore/qrect.h"/>
+          <file name="QtCore/qrefcount.h"/>
+          <file name="QtCore/qregexp.h"/>
+          <file name="QtCore/qregularexpression.h"/>
+          <file name="QtCore/qresource.h"/>
+          <file name="QtCore/qresultstore.h"/>
+          <file name="QtCore/qrunnable.h"/>
+          <file name="QtCore/qsavefile.h"/>
+          <file name="QtCore/qscopedpointer.h"/>
+          <file name="QtCore/qscopedvaluerollback.h"/>
+          <file name="QtCore/qsemaphore.h"/>
+          <file name="QtCore/qsequentialanimationgroup.h"/>
+          <file name="QtCore/qset.h"/>
+          <file name="QtCore/qsettings.h"/>
+          <file name="QtCore/qshareddata.h"/>
+          <file name="QtCore/qsharedmemory.h"/>
+          <file name="QtCore/qsharedpointer.h"/>
+          <file name="QtCore/qsharedpointer_impl.h"/>
+          <file name="QtCore/qsignalmapper.h"/>
+          <file name="QtCore/qsignaltransition.h"/>
+          <file name="QtCore/qsize.h"/>
+          <file name="QtCore/qsocketnotifier.h"/>
+          <file name="QtCore/qsortfilterproxymodel.h"/>
+          <file name="QtCore/qstack.h"/>
+          <file name="QtCore/qstandardpaths.h"/>
+          <file name="QtCore/qstate.h"/>
+          <file name="QtCore/qstatemachine.h"/>
+          <file name="QtCore/qstorageinfo.h"/>
+          <file name="QtCore/qstring.h"/>
+          <file name="QtCore/qstringbuilder.h"/>
+          <file name="QtCore/qstringlist.h"/>
+          <file name="QtCore/qstringlistmodel.h"/>
+          <file name="QtCore/qstringmatcher.h"/>
+          <file name="QtCore/qsysinfo.h"/>
+          <file name="QtCore/qsystemdetection.h"/>
+          <file name="QtCore/qsystemsemaphore.h"/>
+          <file name="QtCore/qt_windows.h"/>
+          <file name="QtCore/qtcore-config.h"/>
+          <file name="QtCore/qtcoreversion.h"/>
+          <file name="QtCore/qtemporarydir.h"/>
+          <file name="QtCore/qtemporaryfile.h"/>
+          <file name="QtCore/qtextboundaryfinder.h"/>
+          <file name="QtCore/qtextcodec.h"/>
+          <file name="QtCore/qtextstream.h"/>
+          <file name="QtCore/qthread.h"/>
+          <file name="QtCore/qthreadpool.h"/>
+          <file name="QtCore/qthreadstorage.h"/>
+          <file name="QtCore/qtimeline.h"/>
+          <file name="QtCore/qtimer.h"/>
+          <file name="QtCore/qtimezone.h"/>
+          <file name="QtCore/qtranslator.h"/>
+          <file name="QtCore/qtypeinfo.h"/>
+          <file name="QtCore/qtypetraits.h"/>
+          <file name="QtCore/qurl.h"/>
+          <file name="QtCore/qurlquery.h"/>
+          <file name="QtCore/quuid.h"/>
+          <file name="QtCore/qvariant.h"/>
+          <file name="QtCore/qvariantanimation.h"/>
+          <file name="QtCore/qvarlengtharray.h"/>
+          <file name="QtCore/qvector.h"/>
+          <file name="QtCore/qversionnumber.h"/>
+          <file name="QtCore/qversiontagging.h"/>
+          <file name="QtCore/qwaitcondition.h"/>
+          <file name="QtCore/qwineventnotifier.h"/>
+          <file name="QtCore/qxmlstream.h"/>
+        </files>
+        <exclude>
+          <function name=""/>
+          <enum name=""/>
+          <class name="QTypeInfo" methods=""/>
+        </exclude>
+      </module>
+    </module>
+  </modules>
+</configuration>

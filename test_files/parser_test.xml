@@ -1,0 +1,33 @@
+<!--
+@Author: rebellion
+@Date:   2017-06-26T10:47:25+02:00
+@Last modified by:   rebellion
+@Last modified time: 2017-07-05T16:03:56+02:00
+@License: GPLv3
+-->
+<configuration>
+  <includes>
+    <file name="C:/Program Files/LLVM/lib/clang/5.0.0/include"/>
+    <file name="C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.10.25017/include"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/ucrt"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/shared"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/um"/>
+    <file name="C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/win"/>
+    <file name="D:/Luca/Documents/projects/python/python_clang_binder/test_files"/>
+    <file name="D:/Luca/Documents/projects/python/python_clang_binder"/>
+  </includes>
+  <modules>
+    <module name="Qt">
+      <module name="Core">
+        <files>
+          <file name="main_header.hpp"/>
+        </files>
+        <exclude>
+          <function name=""/>
+          <enum name=""/>
+          <class name="QTypeInfo" methods=""/>
+        </exclude>
+      </module>
+    </module>
+  </modules>
+</configuration>
